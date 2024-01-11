@@ -1,0 +1,15 @@
+.flight_type_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .flight_type_radio-buttons {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .flight_type_radio-buttons label {
+    margin-right: 10px; /* Adjust the margin for spacing between buttons */
+}

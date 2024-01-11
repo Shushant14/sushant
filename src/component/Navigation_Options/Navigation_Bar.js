@@ -5,6 +5,7 @@ import flight_image from "../../images/flight.png";
 import hotel_image from "../../images/hotel.png";
 import holidayPacakages_image from "../../images/holidayPackages.jpeg";
 import train_image from "../../images/train.jpg";
+import cab_image from "../../images/cab.jpeg";
 
 
 function Navigation_Bar() {
@@ -14,8 +15,8 @@ function Navigation_Bar() {
         <div className="pill-content">
           <Nav.Link href="/flights" className="nav-link">
             <img src={flight_image} alt="Flight image" className="icon" />
-            <br />
-            Flights
+            <br/>
+            <span className="first-line">Flights</span>
           </Nav.Link>
         </div>
       </Nav.Item>
@@ -24,7 +25,7 @@ function Navigation_Bar() {
           <Nav.Link href="/hotel" className="nav-link">
             <img src={hotel_image} alt="Hotel image" className="icon" />
             <br />
-            Hotel
+            <span className="first-line">Hotel</span>
           </Nav.Link>
         </div>
       </Nav.Item>
@@ -47,6 +48,15 @@ function Navigation_Bar() {
         <div className="pill-content">
           <Nav.Link href="/train" className="nav-link">
             <img src={train_image} alt="Train image" className="icon" />
+            <br />
+            Train
+          </Nav.Link>
+        </div>
+      </Nav.Item>
+      <Nav.Item className="nav-item">
+        <div className="pill-content">
+          <Nav.Link href="/cab" className="nav-link">
+            <img src={cab_image} alt="Train image" className="icon" />
             <br />
             Train
           </Nav.Link>
