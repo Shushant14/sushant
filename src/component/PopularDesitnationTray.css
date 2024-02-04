@@ -1,0 +1,17 @@
+#fixed{
+  position: relative;
+  
+  height: 600px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 120px;
+  margin-right: 120px;
+  padding-top: 20px;
+  box-shadow: 0px 0px 0px 2px whitesmoke;
+}
+#cits{
+  
+padding-top: 10px;
+  
+  
+}
