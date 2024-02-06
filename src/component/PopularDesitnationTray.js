@@ -11,7 +11,7 @@ export default function PopularDesitnationTray() {
         { city: "bangalore", desc: "bengaluru desc", img: ba },
         { city: "pune", desc: "pune desc", img: pune },
         { city: "re", desc: "pune desc", img: pune },
-        
+       
     ];
 
     useEffect(() => {
@@ -23,12 +23,13 @@ export default function PopularDesitnationTray() {
             <div className="row" id="row2">
                 {content.map((d, index) => (
                     <div key={index} className="col-md-3 col-sm-6 mb-3">
-                        <div className="card">
+                        <div className="card" id="myCont">
                             <div className="card-body">
-                                <img className="card-img-top" src={d.img} alt={d.city} />
-                                <h5 className="card-title">{d.city}</h5>
+                                <div id='imgheight'>
+                                <img className="card-img-top" src={d.img} alt={d.city} /></div>
+                                <div id='restdiv'><h5 className="card-title">{d.city}</h5>
                                 <p className="card-text">{d.desc}</p>
-                                <a href="#" className="btn btn-primary">Book a Flight</a>
+                                <a href="#" className="btn btn-primary" id="upbutton">Book a Flight</a></div>
                             </div>
                         </div>
                     </div>
