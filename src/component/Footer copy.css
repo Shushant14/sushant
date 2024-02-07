@@ -1,4 +1,14 @@
 
+/* Horizontal layout for two questions */
+
+
+.footer {
+  width: 48%; /* Adjust as needed to fit the layout */
+  padding: 10px;
+  background-color: #f4f4f4;
+  border: 1px solid #e2e2e2;
+  width: 700px;
+}
 .footer {
     background-color: #f4f4f4;
     padding: 20px 0;

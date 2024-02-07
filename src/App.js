@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <h1>Trippy</h1>
-      <PopularDesitnationTray/>
+      
       <Footer />
     </div>
   );

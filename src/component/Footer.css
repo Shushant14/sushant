@@ -48,4 +48,27 @@
     margin-top: 20px;
   }
   
-  
+.footerCopyrightbx {
+    gap: 40px;
+    text-align: end;
+    padding: 20px 40px;
+    background-color: black;
+}
+.footerCopyrightbx > h1 {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.footerCopyrightbx > h2 {
+    color: white;
+    font-size: 15px;
+}
+.footer > .footerLastBx {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: black;
+  padding: 0 130px;
+}
