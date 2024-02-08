@@ -1,61 +1,56 @@
 #fixed {
   position: relative;
-  height: 500px; 
-  overflow-y: auto; 
-  margin: auto; 
+  height: 700px; /* Adjust as needed */
+  overflow-y: auto; /* Add scrollbar when content overflows */
+  margin: auto;
+  margin-top: 70px;
+  margin-bottom: 70px;
   padding-top: 20px;
-  padding-left: 20px; 
-  padding-right: 20px; 
+  padding-left: 20px;
+  padding-right: 20px;
   box-shadow: 0px 0px 0px 2px whitesmoke;
 }
 
-#cits {
+#popular-destination-container #cits {
   padding-top: 10px;
 }
 
-#myCont {
-  width: 100%;
-  max-width: 100%;
-  margin-bottom: 20px;
-}
-
-#row2 {
+#popular-destination-container #row2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.card {
-  width: calc(100% / 3 - 20px);
+#popular-destination-container .card {
+  width: calc(33.33% - 20px); 
   margin-bottom: 20px;
 }
 
-#imgheight {
+#popular-destination-container #imgheight {
   width: 100%;
   height: 150px;
   border: 1px solid black;
   overflow: hidden;
 }
 
-#restdiv {
+#popular-destination-container #restdiv {
   width: 100%;
-  height: auto;
   box-sizing: border-box;
   padding: 10px;
 }
 
-#upbutton {
+#popular-destination-container #upbutton {
   margin-top: auto;
 }
 
 @media (max-width: 767px) {
-  .card {
+  #popular-destination-container .card {
     width: calc(50% - 20px);
   }
 }
 
 @media (max-width: 575px) {
-  .card {
+  #popular-destination-container .card {
     width: calc(100% - 20px);
   }
 }
