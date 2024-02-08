@@ -5,6 +5,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  height: fit-content;
+  background: linear-gradient(transparent 50%, transparent 0%),
+              url('../src/images/background3.jpg');
+  background-size: 100% 600px;
+
+  background-position: top left; /* Adjust the position property as needed for the image */
+  background-repeat: no-repeat; /* Adjust the repeat property as needed for the image */
+            /* You can also set additional styles for the body element if desired */
+  /* background-position: 0 0; */
 }
 
 code {
