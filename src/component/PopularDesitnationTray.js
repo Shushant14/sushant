@@ -13,7 +13,8 @@ export default function PopularDesitnationTray() {
         { city: "pune", desc: "pune desc", img: pune },
         { city: "re", desc: "pune desc", img: pune },
         { city: "re", desc: "pune desc", img: pune },
-        { city: "re", desc: "pune desc", img: pune },
+       
+        { city: "re", desc: "pune desc", img: pune }
        
     ];
 
