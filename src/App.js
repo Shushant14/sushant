@@ -11,6 +11,7 @@ function App() {
       <h1>Trippy</h1>
       <Container_Nav_Options></Container_Nav_Options>
       <Offer/>
+      <PopularDesitnationTray/>
       <Footer />
 
     </div>
