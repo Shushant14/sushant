@@ -4,6 +4,9 @@ import githubLogo from "../../images/github_logo.png";
 
 import "./footer.css";
 import "./Footer2.css";
+import Implink from "../Implinks/Implink";
+import QuikLink from "../Quicklinks/QuikLink";
+
 
 const Footer = () => {
   return (
@@ -11,7 +14,9 @@ const Footer = () => {
       <footer className="footer">
         <div className="footerData">
           <h1>Product Offering</h1>
-          <p>
+          <Implink />
+          <QuikLink />
+          {/* <p>
             Flights, International Flights, Charter Flights, Hotels,
             International Hotels, Homestays and Villas, Activities, Holidays In
             India, International Holidays, Book Hotels From UAE, myBiz for
@@ -19,7 +24,7 @@ const Footer = () => {
             Tickets, Cheap Tickets to India, Book Flights From US, Book Flights
             From UAE, Trip Planner, Gift Cards, Trip Money, Trip Ideas, Travel
             Blog, PNR Status, Trippy Advertising Solutions, One Way Cab
-          </p>
+          </p> */}
         </div>
         {/* ... (repeat similar structure for other sections) */}
         <div className="footerTerms" id="fotdetails">
